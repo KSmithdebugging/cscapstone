@@ -1,0 +1,31 @@
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+#hoopContainer {
+position: relative;
+left: 19%;
+bottom: 20%;
+}
+#basketball {
+    position: absolute;
+}
+#basketballHoop {
+    float: right;
+    position: absolute;
+}
+
+.buttons {
+    padding: 20px 48px;
+    background: #4CAF50;
+}
+
+#buttonDiv {
+    position: absolute;
+    bottom:200px;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+}

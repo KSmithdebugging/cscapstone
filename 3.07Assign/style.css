@@ -4,3 +4,23 @@
 #researchContainer {
     margin: 50px;
 }
+.aboutMe {
+    margin: 0 auto;
+    width: 13%;
+}
+ td {
+    border:1px solid black;
+    word-break: break-all;
+  }
+  table {
+    table-layout: fixed;
+  }
+
+th {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.center {
+      margin: 0 auto; 
+  }

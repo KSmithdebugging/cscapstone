@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script async src="script.js"></script>
 </head>
 
 <body>
@@ -47,35 +48,40 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex" role="search">
+        <!-- <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        </form> -->
       </div>
     </div>
   </nav>
   <div class="aboutMe">
     <h2>Kemo Smith he/him <i>CEO</i></h2>
-    <h1>Hooping Thru Arithmetics</h1>
-    <img src="me.jpg" width="200" height="300">
+    <h1 id="companyTitle">Hooping Thru Arithmetics</h1>
+    <img src="me.jpg" width="300" height="500" id="profile" onmouseout="mouseLeave()">
   </div>
-  <table class="table table-bordered table-dark">
-    <thead class="thead-light">
-      <tr>
-        <th scope="col">Education</th>
-        <th scope="col">About CEO</th>
-        <th scope="col">Fun Facts</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row"> Right now I am 16 years old, and I was born in Fresno, CA. 
- I'm trying to pursue a major in computer science at a 4 year university after my senior year this year. </th>
-        <th scope="row">With this plan, I going to  majority of students who play basketball competitvely in the Bay Area to </th>
-        <th scope="row">I skipped a year!</th>
-      </tr>
-    </tbody>
-  </table>
+  <div class="container">
+    <div class="row border border-5">
+      <div class="col border border-5">
+        <h2 class="colTextAlign"><u>Education</u></h2>
+        <p>Right now I am 16 years old, and I was born in Fresno, CA. 
+          I'm trying to pursue a major in computer science at a 4 year university after my senior year this year. Currently attending Oakland Technicial High School.</p>
+      </div>
+      <div class="col border border-5">
+        <h2 class="colTextAlign" id="researchPopup"><u>About Hooping Thru Arithmetics</u></h2>
+        <p>With this plan, I going to target the majority of students, who play basketball competitvely in the Bay Area in order to improve their arthimetic skills.</p>
+      </div>
+      <div class="col border border-5">
+        <h2 class="colTextAlign"><u>About Me</u></h2>
+        <ul>
+          <li>Technically I should be a junior, but I skipped a year so I am now a senior!</li>
+          <li>I play basketball for fun but have recently participated in tournament runs. I use to be on the basketball team in middle school.</li>
+          <li>My favorite food is either pozole, tamales, or tacos. My grandma makes the best pozole or tamales!</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>

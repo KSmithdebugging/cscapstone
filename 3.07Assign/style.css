@@ -1,3 +1,8 @@
+body {
+    background-color: #023373;
+    color: #F24E29;
+}
+
 .navbar-brand {
     font-family: Comic Sans MS;
 }
@@ -5,8 +10,7 @@
     margin: 50px;
 }
 .aboutMe {
-    margin: 0 auto;
-    width: 13%;
+   margin: 70px;
 }
  td {
     border:1px solid black;
@@ -16,9 +20,8 @@
     table-layout: fixed;
   }
 
-th {
-    padding: 15px;
-    font-size: 20px;
+.colTextAlign {
+    text-align: center;
 }
 
 .center {

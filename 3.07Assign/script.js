@@ -1,4 +1,6 @@
-const profile = document.getElementById("profile").addEventListener("mouseover", myHover).addEventListener("mouseout", mouseLeave);
+const profile = document.getElementById("profile");
+profile.addEventListener("mouseover", myHover);
+profile.addEventListener("mouseout", mouseLeave);
 const companyTitle = document.getElementById("companyTitle");
 companyTitle.addEventListener("click", titleClick);
 const researchPopup = document.getElementById("researchPopup").addEventListener("click", researchPop);

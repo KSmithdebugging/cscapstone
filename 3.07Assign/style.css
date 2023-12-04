@@ -46,6 +46,7 @@ body {
   .problem {
     flex: 50%;
     padding: 20px;
+    margin-left: 5%;
   }
   .problem * {
 color: white;
@@ -61,4 +62,11 @@ background: green;
   }
   #sourceSection * li {
     color: white;
+  }
+  /* Root causes css */
+  .evidenceContainer {
+margin-left: 3%;
+  }
+  .evidenceContainer * li {
+    margin-left: 10%;
   }

@@ -70,3 +70,24 @@ margin-left: 3%;
   .evidenceContainer * li {
     margin-left: 10%;
   }
+
+  /* Case study css */
+  #recapContainer {
+    background: black;
+  }
+  #recapTitle{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    color: 	#AAFF00;
+  }
+  .listFindings {
+list-style-type: none;
+margin-left: 3%;
+margin-right: 5%;
+color: yellow;
+  }
+  .sourcesStyle * a{
+color: white;
+font-size: 22.5px;
+font-weight: bold;
+  }

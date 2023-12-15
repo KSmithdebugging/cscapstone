@@ -1,47 +1,148 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Case Study</h1>
-    <nav class="navbar navbar-expand-lg bg-primary navbar-brand" style="background-color: #FFC34D;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="AboutKemo.html">About Kemo</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="initialResearchKemo.html">Initial Research</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="RootCausesKemo.html">Root Causes</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="CaseStudy.html">Case Study</a></li>
-              </ul>
-            </li>
-          </ul>
-          <!-- <form class="d-flex" role="search">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case Study</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Case Study</h1>
+  <nav class="navbar navbar-expand-lg bg-primary navbar-brand" style="background-color: #FFC34D;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutKemo.html">About Kemo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="initialResearchKemo.html">Initial Research</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="RootCausesKemo.html">Root Causes</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="CaseStudy.html">Case Study</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form> -->
-        </div>
       </div>
-    </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+    </div>
+  </nav>
+  <div id="recapContainer">
+    <h2 id="recapTitle">Recap from findings about Study.com</h2>
+    <ul class="listFindings">
+      <li>- Study.com's mission is,
+        “[They] believe everyone deserves access to affordable, high-quality education.”
+      </li>
+      <br>
+      <li>- Their focus is on primarily high-school students and adults, even though they catered to younger students as
+        well. They provide digital courses that are college accredited at a reduced cost, which helps students who need
+        to
+        transfer to college, but are low-income and cannot pay the high cost for accrediation elsewhere.</li>
+      <br>
+      <li>- Study.com was cofounded in 2002, by Adrián Ridner, and Ben Wilson. The curriculum featured on their website
+        and mobile app is
+        coordinated by Jessica Bayliss, the director of Education. While they have other teachers for various academic
+        subjects, I concentrated on their math teachers: Luke Winspur, M.A.,
+        Erin Lennon, Ph.D., and
+        Kathryn Maloney, M.S.</li>
+    </ul>
+    <br>
+  </div>
+  <table class="table">
+    <thead>
+      <tr class="table-primary">
+        <th scope="col" class="table-success">Positive Impact</th>
+        <th scope="col" class="table-danger">Limitations</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" class="table-success">
+          <h5>What specifically are the most helpful aspects of this case study?</h5>
+          <ul class="listFindings" style="color: black;">
+            <li>- Goal is aligned with what I am trying to achieve.
+            </li>
+            <li>- This method they implement has proven to be successful with palpable results nationwide.
+            </li>
+            <li>- The credits given are accredited at a collegiate level, which I can find out how to make the courses I
+              imported from a credible insitution transferable to college like UCs, CSUs, and Privates.</li>
+          </ul>
+          <hr style="border-top: 4px solid ; width: 102%; border-color:green; margin-left: -1%;">
+          <ol>
+            <li>Study.com gives new students a pathway to achieve a degree at a <b>U.S institution</b>.
+            </li>
+            <li>As previous mentioned, they help <b>students from K-12</b>, and adults who need additional help outside
+              of the classroom, or <b>college credits</b></li>
+            <li>They helped over <b>30 million</b> students monthly that use their study tools and educational videos to
+              achieve their <b>academic goals.</b></li>
+
+          </ol>
+        </th>
+        <td class="table-danger">
+          <h5>Issues with Study.com</h5>
+          <ul style="margin-right: 4%;">
+            <li>
+              Students may have issues accessing websites or mobile apps due to lack of internet access & or low-quality
+              devices.
+            </li>The learning may not be effective prepation; thus, it might not translate once students are <br>doing
+            college-level work independently.
+            <li>
+              The user interface on the website or mobile may be unappealing to students.
+            </li>
+            <li>
+              Independent study may be unwelcoming for students who are use to a traditional classroom <br>setting.
+            </li>
+            <li>Content hosted could be unengaging to some students because their platform lacks a personal connection
+              without meaningful connections with peers</li>
+          </ul>
+          <h5>How might technology be used differently or better to improve the <br>effectiveness of the app?
+          </h5>
+          <p style="margin-right: 4%; margin-left: 4%;">
+            It can be better by changing the UI to be more welcoming and engaging to users on their<br> platform.
+            Furthermore, they can also feature games or project-making activities that bring<br> people together to create a
+            sense of community, so they are eagered to continue learning <br>online. There can be platforms that connect
+            with them, which provide safe areas for people <br>to learn with sufficient internet.
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 style="margin-left: 1.5%;"><u>Sources</u></h2>
+  <ol style="color: yellow;" class="sourcesStyle">
+    <h4>Internal Source -> From Study.com</h4>
+    <li><a href="https://study.com/pages/About_Us.html">About Study.com</a></li>
+    <h4><u>External Sources/Testimonials</u></h4>
+    <li><a href="https://www.nbcbayarea.com/news/coronavirus/study-com-offering-free-licenses-to-schools-during-coronavirus-outbreak/2260067/">NBC</a></li>
+    <li><a href="https://www.forbes.com/sites/michaeltnietzel/2019/12/09/studycom-the-anywhere-anytime-platform-for-earning-a-college-degree/?sh=15ae3f3234aa">Forbes</a></li>
+    <li><a href="https://www.cbsnews.com/sanfrancisco/news/bay-area-working-mom-obtains-bachelors-degree-with-help-from-online-program/">CBS News</a></li>
+  </ol>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
